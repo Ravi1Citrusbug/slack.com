@@ -1,0 +1,552 @@
+/* section a */
+*{
+    margin:0px;
+    padding:0px;
+}
+.a
+{
+    background-color:  #541554;;
+    width: 100%;
+    height:550px;
+    color:white;
+}
+.a .nav
+{
+    padding-top: 25px;
+    padding-left: -10px;
+    position: fixed;
+    background-color: #541554;
+    z-index: 3;
+    margin-left: 219px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+    
+}
+.container
+{
+    display: flex;
+}
+.container li
+{
+    list-style: none;
+    margin: 5px 20px;
+}
+.container .talks_to
+{
+    border-bottom: #f4ede4;
+    border-style: solid;
+    border-width: 1px;
+    padding: 11px;
+    position: relative;
+    border-radius: 5px;
+    margin-top: -3px;
+    text-align: center;
+}
+.container .try_for
+{
+  background-color: aliceblue;
+  color: #541554;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: -3px;
+  margin-left: -5px;
+}
+.container li .dropdown
+{
+    width: 15px;
+    padding: 1px 3px;
+    background-color: #541554;
+    border-style: none;
+}
+.container li .dropdown option
+{
+    background-color: aliceblue;
+}
+.container li:hover
+{
+    cursor: pointer;
+}
+.container .slack
+{
+    font-size: 30px;
+    margin-left: 30px; 
+    margin-top: -2px;
+}
+.a>.nav>.container>.search
+{
+    margin-left: 200px;
+}
+.fa-solid
+{
+    color: aliceblue;
+}
+.nav_content .nav_contentent_details
+{
+    color: aliceblue;
+    margin-left: 260px;
+    margin-top: 40px;
+}
+.nav_content
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 86px;
+    position: absolute;
+
+}
+.nav_contentent_details .y
+{
+    color: #ecb22e!important;
+    margin-bottom: 10px;
+}
+.nav_contentent_details h1
+{
+    font-size: 65px;
+}
+.nav_contentent_details h3
+{
+    margin-top: 40px;
+}
+.nav_contentent_details .mail
+{
+    margin-right: 10px;
+    padding: 20px 25px;
+    background-color: aliceblue;
+    color: #4a154b;
+    border-radius: 5px;
+}
+.mail:hover
+{
+    cursor: pointer;
+    box-shadow: 0 0 10px whitesmoke;
+}
+.nav_contentent_details p
+{
+    margin-bottom: 40px;
+}
+.nav_contentent_details .google
+{
+    padding: 20px 25px 20px 60px;
+    border-radius: 5px;
+    background-color:#4285f4;
+}
+.nav_contentent_details .google img
+{
+    position: absolute;
+    margin: -15px -50px;
+    
+}
+.google:hover
+{
+    cursor: pointer;
+    box-shadow: 0 0 10px whitesmoke;
+}
+.animation
+{
+    margin-right: 200px;
+    margin-bottom: 0px;
+}
+.animation img
+{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/* section b --------------------------------------------------------------------------------------*/
+.b
+{
+    background-color:#f4ede4;
+    height:1600px ;
+    width: 100%;
+}
+.b h5
+{
+    text-align: center;
+    padding-top: 50px;
+}
+.companies .container
+{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.companies .container li
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+.container .IBM
+{
+    color: blue;
+}
+.container .delivero
+{
+    color: rgb(141, 165, 105);
+}
+.b .b1
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.b1 .animation img
+{
+    height: 100%;
+    width:100%;
+    padding: 5px 20px;
+
+}
+.content .first
+{
+    font-size: 40px;
+}
+.b1 .content p
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.b1 .content i
+{
+    color: blue;
+}
+.b1 .content
+{
+    padding-top: 40px;
+}
+.b1 .bcontent2
+{
+    padding-left: 70px;
+}
+.b1 .bcontent2 p
+{
+   margin-right: 30px;
+   padding-left: 80px;
+}
+.b1 .bcontent2 a
+{
+    padding-left: 80px;
+}
+.b1 .content a
+{
+    text-decoration: none;
+}
+.b1 .content a:hover
+{
+    text-decoration:underline;
+}
+/* section c---------------------------------------------------------------- */
+.c
+{
+    background-color: aliceblue;
+    width: 100%;
+    height: 1700px;
+}
+.ctext h1
+{
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 60px;
+    font-size: 50px;
+}
+.ctext h4
+{
+    margin-top: 20px;
+    text-align: center;
+}
+.c .box
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.box .box1
+{
+    background-color: rgb(131, 40, 131);
+    color:white;
+    padding: 20px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+.box .box1:hover
+{
+    cursor: pointer;
+    box-shadow: 0 0 2px  rgb(131, 40, 131);
+    background-color: #6d1f6e;
+}
+.box .box2
+{
+    color:  rgb(131, 40, 131);
+    border-style: solid;
+    border-width: 2px;
+    border-color:rgb(131, 40, 131); 
+    margin-left: 20px;
+    padding: 20px 35px;
+    border-radius: 10px;
+}
+.box .box2:hover
+{
+    cursor: pointer;
+    box-shadow: 0 0 2px  rgb(131, 40, 131);
+    border-width: 2.5px;
+}
+.c .perc
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.c .perc div h1
+{
+    color: rgb(131, 40, 131);
+    font-size: 60px;
+}
+.c .c1
+{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 80px;
+
+}
+.c1 .animation
+{
+    margin-left: 150px;
+}
+.c1 .content p
+{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.c1 .content i
+{
+    color: blue;
+    margin-top: 20px;
+}
+.c .text
+{
+    text-align: center;
+    color: rgb(117, 111, 111);
+    margin-top: 20px;
+}
+.c .text h4
+{
+    padding-top: 50px;
+
+}
+.c1 .content
+{
+    margin-top: 70px;
+    margin-right:70px;
+    margin-bottom: -10px;
+}
+.c1 .content a
+{
+    text-decoration: none;
+}
+.c1 .content a:hover
+{
+    text-decoration: underline;
+}
+/* section d ------------------------------------------------------------*/
+.d
+{
+    height: 600px;
+    width:100%;
+    background-color:#f4ede4;
+
+}
+.d .card
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.d .card:hover
+{
+    cursor: pointer;
+}
+.d h1
+{
+    text-align: center;
+    margin-top: 80px;
+    padding-top: 60px;
+}
+.card .card1
+{
+    height: 400px;
+    width: 290px;
+    background-color: white;
+    margin-right: 20px;
+}
+.card .card1 img
+{
+    margin: 10px;
+}
+.card1 h6
+{
+    color: rgb(90, 87, 87);
+}
+.card1 .cardcontent
+{
+    margin-left: 10px;
+}
+.card1 .cardcontent p
+{
+    margin-top: 20px;
+}
+.card1 .cardcontent h4
+{
+    margin-top: 70px;
+    color: rgb(78, 78, 192);
+}
+.card1 .cardcontent h4 i
+{
+    color:  rgb(78, 78, 192);
+    margin-left: 80px;
+}
+.d .card .card2 .cardcontent h4
+{
+  margin-top: 10px;
+}
+/* section e ---------------------------------------------------------------------*/
+.e
+{
+    height:892px;
+    width: 100%;
+    background-color:white;
+}
+.e .nav
+{
+    background-color: #4a154b;
+    height: 500px;
+    width: 100%;
+    clip-path: ellipse(75% 75% at center top);
+
+}
+.e .nav h1
+{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding-top: 110px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.e .nav .ebutton
+{
+    display: flex;
+    color:white;
+    justify-content: center;
+    margin: 30px;
+
+}
+.e .nav .ebutton .try
+{
+    border-width: 2px;
+    background-color: white;
+    color: #4a154b;
+    text-align: center;
+    padding:  25px 49px;
+    border-radius: 5px;
+    margin-right: 10px;
+    height: 10px;
+
+}
+.e .nav .ebutton .talk
+{
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  text-align: center;
+  padding:  25px 49px;
+  border-radius: 5px;
+  height: 10px;
+
+}
+.e .nav .ebutton .try:hover, .e .nav .ebutton .talk:hover
+{
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+}
+.e .footer
+{
+    display: flex;
+    margin-top: -110px;
+    padding-bottom: 40px;
+    justify-content: space-evenly;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.f1 ul li
+{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.f1 ul li:hover
+{
+    cursor: pointer;
+    color: blue;
+}
+.footer div img
+{
+    margin-top: 33px;
+}
+.e hr
+{
+    width: 1350px;
+    margin-left: 350px;
+}
+.e .lastfooter
+{
+    /* background-color: #541554; */
+    width: 1350px;
+    margin-left: 350px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.e .lastfooter ul li
+{
+    list-style: none;
+}
+.e .lastfooter .textlist li select
+{
+    width: 20px;
+    border: none;
+}
+.e .lastfooter ul
+{
+   display: flex;
+   justify-content: space-between;
+}
+.e .lastfooter ul li
+{
+    margin-right: 20px;
+}
+.fontosome .download
+{
+    color: #1264a3;
+}
+.fontosome .download:hover
+{
+    cursor: pointer;
+}
+.fontosome .fa-brands:hover,.textlist li:hover
+{
+   color: #4285f4;
+   cursor: pointer;
+}
+.fontosome .fa-solid
+{
+    color:#1264a3 ;
+    margin-left: 1px;
+    position: absolute;
+}
+.e small
+{
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 346px;
+
+}
